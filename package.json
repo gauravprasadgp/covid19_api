@@ -8,7 +8,7 @@
     "start": "node src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "github.com/gauravprasadgp",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.0",

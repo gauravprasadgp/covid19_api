@@ -2,7 +2,9 @@
 
 * node version >=8
 * npm version >=6.13
+* Unzip the source code file
 * Download the sql database and run the mysql server
+* Import the table to maintain the schema
 * Database contains **users** table containing user credentials
 * please use username: **gaurav** and password: **123456**
 

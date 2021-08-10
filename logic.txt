@@ -1,0 +1,6 @@
+I am using node.js, express and javascript to build the  api endpoints, I have used jwt(json web token) inorder to keep track of the api keys send from the server for authentication.
+For now i am only using one user for login in and getting a token which will be used for accessing the endpoints.
+The token issues is a time based token which for this use case has a expiry time of 10 days from the day of issue (it can be changed based on requirement).
+All the API are protected using the auth acting as middleware to the incoming request.
+The main logic behind the api response is to perform a OUTER JOIN in the three table where date or state_name is same.
+Hence the api is clear and working.
