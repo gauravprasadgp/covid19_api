@@ -3,11 +3,15 @@ const app = express();
 var cors = require('cors');
 var mysql = require('mysql');
 const bodyParser = require('body-parser');
+// importing the auth.js to enable authentication for the api's
 const auth = require('./api/auth');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+// used to enable cross-origin-resource sharing for developing the api ans testing on same system/
 app.use(cors());
+// json web token used to send encoded token containing payload.
 const jwt = require('jsonwebtoken');
+// secret key to encode and decode the token
 const { secret } = require('./config/secret');
 
 //creating a connecting variable to be used withing the api's
