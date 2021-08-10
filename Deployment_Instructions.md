@@ -15,26 +15,26 @@
 
 **Endpoints:**
 
-* **Login** : **http://localhost:8000/login**
+* **Login** : **http://localhost:8000/login OR http://35.222.244.17/login**
   * Request-Protocol: POST
   * Body: {username:gaurav,password:123456}
   * Response: token
 
 
-* **Get_date_info** : **http://localhost:8000/get_date_info**
+* **Get_date_info** : **http://localhost:8000/get_date_info OR http://35.222.244.17/get_date_info**
   * Request-Protocol: POST
   * Body: {date:any_date(date)}
   * Response: data: [] containing the result
 
 
-* **Get_state_info** : **http://localhost:8000/get_state_info**
+* **Get_state_info** : **http://localhost:8000/get_state_info OR http://35.222.244.17/get_state_info**
 
   * Request-Protocol: POST
   * Body: {state:state_name(string)}
   * Response: data: [] containing the result
 
 
-* **Pinpoint_state** : **http://localhost:8000/pinpoint_state**
+* **Pinpoint_state** : **http://localhost:8000/pinpoint_state OR http://35.222.244.17/pinpoint**
   * Request-Protocol: POST
   * Body: {date:any_date(date),state:state_name(string)}
   * Response: data: [] containing the result
